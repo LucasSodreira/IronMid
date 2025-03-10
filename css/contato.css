@@ -138,13 +138,6 @@ nav ul li a.active {
     font-weight: bold;
 }
 
-.box-professor{
-    display: flex;
-    flex-direction: column;
-    width: 20%;
-    text-align: center;
-}
-
 .box-professor p{
     font-size: 12px;
 }
@@ -157,7 +150,7 @@ nav ul li a.active {
 .box-professor{
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 15%;
     text-align: center;
 }
 
@@ -195,6 +188,7 @@ nav ul li a.active {
 
 #center-suportes{
     display: flex;
+    gap: 2rem;
 }
 
 .center-box{
