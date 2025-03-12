@@ -199,16 +199,6 @@ nav ul li a.active {
     text-align: justify;
 }
 
-@media (max-width: 768px) {
-    .content-container {
-        flex-direction: column;
-    }
-    
-    .image-container, .text-container {
-        width: 100%;
-    }
-}
-
 /* Footer */
 footer {
     background-color: #333;
@@ -269,4 +259,53 @@ footer {
     .services-grid {
         grid-template-columns: 1fr;
     }
+
+    .btn-consulta {
+        text-align: center;
+        font-size: 13px;
+        width: 9rem;
+        padding: 8px 10px;
+      }
+    
+      .logo img {
+        height: 25px;
+      }
+    
+      nav ul {
+        font-size: 14px;
+      }
+    
+      nav ul li {
+        margin: 8px 4px;
+      }
+
+      .image-container{
+        display: flex;
+        justify-content: center;
+      }
+    
+    .image-container, .text-container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+  
+    .btn-consulta {
+      font-size: 11px;
+      width: 4rem;
+    }
+  
+    nav ul {
+      font-size: 14px;
+    }
+
+    .info-card p{
+        font-size: 16px;
+    }
+
+    .section-title{
+        font-size: 24px;
+    }
+
 }

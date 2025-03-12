@@ -283,4 +283,35 @@ footer {
     .services-grid {
         grid-template-columns: 1fr;
     }
+
+    .btn-consulta {
+        text-align: center;
+        font-size: 13px;
+        width: 9rem;
+        padding: 8px 10px;
+      }
+    
+      .logo img {
+        height: 25px;
+      }
+    
+      nav ul {
+        font-size: 14px;
+      }
+    
+      nav ul li {
+        margin: 8px 4px;
+      }
+    
+}
+
+@media (max-width: 480px){
+    nav ul {
+        font-size: 12px;
+      }
+
+      .btn-consulta {
+        font-size: 11px;
+        width: 4rem;
+      }
 }

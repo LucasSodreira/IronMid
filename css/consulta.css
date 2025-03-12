@@ -158,8 +158,13 @@ nav ul li a.active {
     margin-bottom: 20px;
 }
 
+.form-consulta{
+    font-weight: bold;
+    color: #555;
+}
+
 .form-group label {
-    /* display: block; */
+    display: block;
     margin-bottom: 8px;
     font-weight: bold;
     color: #555;
@@ -186,6 +191,7 @@ textarea.form-control {
 
 .form-check {
     margin-bottom: 10px;
+    display: flex;
 }
 
 .teste{
@@ -276,5 +282,69 @@ footer {
     
     .services-grid {
         grid-template-columns: 1fr;
+    }
+
+    .btn-consulta {
+        text-align: center;
+        font-size: 13px;
+        width: 9rem;
+        padding: 8px 10px;
+      }
+    
+      .logo img {
+        height: 25px;
+      }
+    
+      nav ul {
+        font-size: 14px;
+      }
+    
+      nav ul li {
+        margin: 8px 4px;
+      }
+    
+      .form-check{
+        margin-bottom: 0;
+        display: flex;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .btn-consulta {
+        font-size: 11px;
+        width: 4rem;
+      }
+    
+      nav ul {
+        font-size: 14px;
+      }
+
+      .hero h1 {
+        font-size: 24px;
+      }
+    
+      .hero p {
+        font-size: 14px;
+        width: 80%;
+      }
+
+    .hero-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .teste{
+        font-size: 16px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Cria 2 colunas */
+        grid-template-rows: repeat(2, 1fr); /* Cria 2 linhas */
+        align-items: center;
+    }
+
+    .form-check{
+        margin-bottom: 0;
+        display: flex;
     }
 }
