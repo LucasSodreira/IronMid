@@ -155,7 +155,7 @@ nav ul li a.active {
 
 .box-suporte-info {
   display: flex;
-  width: 45%;
+  width: 30%;
   gap: 5%;
   justify-content: center;
   text-align: center;
@@ -169,9 +169,9 @@ nav ul li a.active {
 .container-suporte {
   display: flex;
   flex-wrap: nowrap;
-  justify-content: center;
   margin-top: 2rem;
   margin-bottom: 3rem;
+  justify-content: center;
 }
 
 .container-contato {
@@ -205,11 +205,11 @@ nav ul li a.active {
   flex-direction: column;
   gap: 1rem;
   align-items: center;
-  width: 95%;
+  width: 86%;
 }
 
 .form-contato {
-  width: 40%;
+  width: 30%;
   /* height: 21rem; */
   display: flex;
   align-items: flex-end;
