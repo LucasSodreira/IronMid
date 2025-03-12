@@ -70,7 +70,7 @@ nav ul li a.active {
     background-image: url('/media/title.png');
     background-size: cover;
     background-position: center;
-    height: 300px;
+    height: 210px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -214,4 +214,67 @@ textarea.form-control {
 
 .btn-submit:hover {
     background-color: #e05f00;
+}
+
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 50px 0 0 0;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+}
+
+.footer-column h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #ff6b00;
+}
+
+.footer-column ul {
+    list-style: none;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-column ul li a:hover {
+    color: #ff6b00;
+}
+
+.copyright {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #444;
+    margin-top: 30px;
+    color: #ccc;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .form-row {
+        flex-direction: column;
+        gap: 0;
+    }
+    
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
 }
