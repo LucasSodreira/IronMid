@@ -67,7 +67,7 @@ nav ul li a.active {
 
 /* Hero Section */
 .hero {
-    background-image: url('media/title.png');
+    background-image: url('../media/title.png');
     background-size: cover;
     background-position: center;
     height: 210px;
