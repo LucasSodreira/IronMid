@@ -258,9 +258,6 @@ footer {
   color: #ccc;
 }
 
-main{
-  margin: 4rem;
-}
 
 /* Responsive */
 @media (max-width: 768px) {
